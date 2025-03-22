@@ -7,7 +7,7 @@ function console_test(){
 }
 
 function abc_test(a){
-    console.log({`this ${a} is from module`})
+    console.log(`this ${a} is from module` );
 }
 
 module.exports = {console_test , abc_test};
