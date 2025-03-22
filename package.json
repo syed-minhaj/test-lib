@@ -1,0 +1,16 @@
+{
+  "name": "test-lib-minhaj",
+  "version": "0.0.2",
+  "description": "test lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-minhaj/test-lib.git"
+  },
+  "license": "ISC",
+  "author": "minhaj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  }
+}
