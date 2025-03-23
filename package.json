@@ -1,6 +1,6 @@
 {
   "name": "test-lib-minhaj",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "test lib",
   "repository": {
     "type": "git",
@@ -9,7 +9,10 @@
   "license": "ISC",
   "author": "minhaj",
   "type": "commonjs",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./test2": "./test2/index.js"
+  },
   "scripts": {
     "test": "node index.js"
   }

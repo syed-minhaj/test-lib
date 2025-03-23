@@ -7,7 +7,8 @@ function console_test(){
 }
 
 function abc_test(a){
-    console.log(`this ${a} is from module` );
+    const e = process.env.ABC;
+    console.log(`this ${a} is from module ${e} ` );
 }
 
 module.exports = {console_test , abc_test};
