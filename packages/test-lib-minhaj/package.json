@@ -10,8 +10,7 @@
   "author": "minhaj",
   "type": "commonjs",
   "exports": {
-    ".": "./index.js",
-    "./test2": "./test2/index.js"
+    ".": "./index.js"
   },
   "scripts": {
     "test": "node index.js"

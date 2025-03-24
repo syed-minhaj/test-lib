@@ -1,0 +1,22 @@
+{
+    "name": "test2-lib-minhaj",
+    "version": "0.0.23",
+    "description": "test lib",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/syed-minhaj/test-lib.git"
+    },
+    "license": "ISC",
+    "author": "minhaj",
+    "type": "commonjs",
+    "exports": {
+      ".": "./index.js"
+    },
+    "peerDependencies": {
+        "test-lib-minhaj": "^0.0.23"
+    },
+    "scripts": {
+      "test": "node index.js"
+    }
+}
+  
