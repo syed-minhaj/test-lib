@@ -1,6 +1,6 @@
 {
-    "name": "test2-lib-minhaj",
-    "version": "0.0.23",
+    "name": "@test-lib-minhaj/2",
+    "version": "0.0.3",
     "description": "test lib",
     "repository": {
       "type": "git",
@@ -13,7 +13,7 @@
       ".": "./index.js"
     },
     "peerDependencies": {
-        "test-lib-minhaj": "^0.0.23"
+        "@test-lib-minhaj/1": "^0.0.3"
     },
     "scripts": {
       "test": "node index.js"

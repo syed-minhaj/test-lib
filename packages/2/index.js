@@ -1,4 +1,4 @@
-const {console_test} = require("test-lib-minhaj")
+const {console_test} = require("@test-lib-minhaj/1")
 function run(){
     
     console_test();
