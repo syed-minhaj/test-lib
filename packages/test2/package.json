@@ -1,0 +1,29 @@
+{
+    "name": "@test-lib-minhaj/test2",
+    "version": "0.0.32",
+    "description": "test lib",
+    "homepage": "https://github.com/syed-minhaj/test-lib#readme",
+    "bugs": {
+        "url": "https://github.com/syed-minhaj/test-lib/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/syed-minhaj/test-lib.git"
+    },
+    "license": "ISC",
+    "author": "minhaj",
+    "type": "commonjs",
+    "exports": {
+        ".": "./index.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "peerDependencies": {
+        "@test-lib-minhaj/test1": "^0.0.3"
+    },
+    "devDependencies": {
+      "@test-lib-minhaj/test1": "*"
+    }
+}

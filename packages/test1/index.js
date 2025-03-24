@@ -2,7 +2,7 @@
 //     console.log("This is a message from the test package syed-minhaj/test-lib ");
 // }
 function console_test(){
-    console.log("This is a message from the test package syed-minhaj/test-lib ");
+    console.log("This is a message from the test package syed-minhaj/test-lib how  ");
     
 }
 

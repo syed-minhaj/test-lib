@@ -1,7 +1,11 @@
 {
-  "name": "@test-lib-minhaj/1",
+  "name": "@test-lib-minhaj/test1",
   "version": "0.0.3",
   "description": "test lib",
+  "homepage": "https://github.com/syed-minhaj/test-lib#readme",
+  "bugs": {
+    "url": "https://github.com/syed-minhaj/test-lib/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/syed-minhaj/test-lib.git"
@@ -12,6 +16,7 @@
   "exports": {
     ".": "./index.js"
   },
+  "main": "index.js",
   "scripts": {
     "test": "node index.js"
   }
